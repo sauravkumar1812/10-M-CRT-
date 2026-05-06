@@ -2,6 +2,9 @@
 using namespace std;
 class Student
 {
+private:
+    int reg = 100;
+
 public:
     // Data members
     string name;
@@ -12,6 +15,8 @@ public:
     {
         cout << "Name:" << name << endl;
         cout << "Roll No:" << rollno << endl;
+        cout << "Reg No:" << reg << endl;
+        reg++;
     }
 };
 int main()
