@@ -11,7 +11,6 @@ public:
         length = 0;
         width = 0;
     }
-
     Area(int length, int w)
     {
         this->length = length;
@@ -39,3 +38,4 @@ int main()
     a3.show();
     return 0;
 }
+
