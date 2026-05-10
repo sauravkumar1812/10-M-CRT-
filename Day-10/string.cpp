@@ -33,6 +33,9 @@ int main()
     int index = str1.find("ello");
     cout << "Index of 'ello' in str1:" << index << endl;
 
+    // at method. str1[1];
+    char ch = str1.at(1);
+    cout << "Character at index 1 in str1:" << ch << endl;
     // swap() method
     str1.swap(str2);
     cout << "After swapping str1 and str2:" << endl;
