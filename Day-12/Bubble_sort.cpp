@@ -17,9 +17,6 @@ void Bubble_Sort(int nums[], int n)
             {
                 cout << "Array is Sorted Here" << endl;
                 swap_array(nums[j], nums[j + 1]);
-                // int temp = nums[j];
-                // nums[j] = nums[j + 1];
-                // nums[j + 1] = temp;
                 flag = true; // flag != flag;
             }
         }
